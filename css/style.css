@@ -1,0 +1,264 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+.container{
+	width: 1140px auto;
+	margin: 0 auto;
+}
+.header{
+	display: flex;
+	width: 100% auto;
+}
+
+.left{
+	background: #015761;
+	width: 100%;
+	flex-basis: 50%;
+
+}
+.left h3{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #f7dc4f;
+	padding: 18px;
+
+}
+ul{
+	display: flex;
+	padding-left: 18px;
+}
+ul li a{
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	padding-right: 24px;
+	color: white;
+	font-size: 12px;
+
+}
+ul li{
+	list-style: none;
+}
+ul li:hover a{
+	color: #f7dc4f;
+}
+.hey{
+	padding: 21% 23%;
+}
+
+.hey h2{
+	font-family: 'Roboto', sans-serif;
+	color: #f7dc4f;
+	padding-bottom: 12px;
+	font-size: 30px;
+
+}
+.hey h1{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 76px;
+    line-height: 71px;
+}
+.hey p{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 13px;
+	padding-top: 15px;
+}
+.right{
+	flex-basis: 50%;
+	position: relative;	
+}
+.right img{
+	width: 98%;
+	height: 600px;
+	margin-bottom: 20px;
+}
+.social{
+	position: absolute;
+	top: 30%;
+	right: 0;
+	height: 120px;
+	width: 30px;
+	background-color: yellow;
+	text-align: center;
+}
+.social a{
+	display: block;
+	padding: 5px 0;
+	color: black;		
+}
+
+
+
+.about{
+	background-color: #f1f0f0;
+	padding: 75px 26%;
+	text-align: center;
+}
+.about h2{
+	font-size: 46px;
+	color: #015761;
+	padding: 10px 0;
+
+}
+.about p{
+	font-size: 13px;
+    color: black;
+    padding: 10px 0;
+    line-height: 24px;
+    letter-spacing: 2px;
+
+
+}
+.about button{
+	background: #f7dc4f;
+	color: #015761;
+	padding: 10px 15px;
+	border: 1px solid #f7dc4f;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.about button:hover {
+	background: transparent;
+	border: 1px solid black;
+	color: black;
+}
+.show h1{
+	text-align: center;
+	font-size: 60px;
+	padding: 60px 0;
+	color: #015761;
+}
+.text h1{
+	text-align: center;
+	font-size: 60px;
+	padding: 60px 0;
+	color: #015761;
+}
+.album{
+	width: 100% auto;
+	margin: 0 50px;
+	margin-bottom: 90px;
+}
+.album img:hover {
+	box-shadow: 5px 5px 5px 5px #015761;
+	transform: scale(1);
+	transition: 0.5s;
+}
+.photo-one{
+	display: flex;
+	height: 350px;
+	width: 100% auto;
+}
+.photo-one img{
+	width: 100%;
+	height: 100%;
+}
+.photo-one .img-one {
+	flex-basis: 25%; 
+	width: 100% auto;
+	margin: 15px 30px 15px 0;
+
+
+}
+.photo-one .img-two {
+	flex-basis: 37.5%;
+	margin: 15px 30px 15px 0;
+}
+.photo-one .img-three {
+	flex-basis: 37.5%;
+	margin: 15px 5px 15px 0;
+}
+
+.photo-two{
+	display: flex;
+	height: 350px;
+	width: 100% auto;
+
+}
+.photo-two img{
+	width: 100%;
+	height: 100%;
+}
+.photo-two .img-one {
+	flex-basis: 42%; 
+	width: 100% auto;
+	margin: 15px 30px 15px 0;
+
+
+}
+.photo-two .img-two {
+	flex-basis: 38%;
+	margin: 15px 30px 15px 0;
+}
+.photo-two .img-three {
+	flex-basis: 20%;
+	margin: 15px 5px 15px 0;
+}
+.contact{
+	display: flex;
+	width: 100%;
+}
+
+.contact .right{
+	flex-basis: 50%;
+	height: 750px;
+	background-color: #015761;
+	color: white;	
+}
+.contact .left{
+	flex-basis: 50%;
+	height: 750px;
+
+}
+.contact img{
+	width: 100% ;
+	height: 750px;
+
+}
+.contact .address{
+	padding: 11% 20%;
+}
+.address h1{
+	color: #f7dc4f;
+	font-size: 60px;
+
+}
+.address h3{
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 25px;
+	padding-bottom: 20px;
+}
+.address span{
+	font-weight: bold;
+
+}
+.address h2{
+	padding: 20px 0;
+}
+.socials a {
+	color: white;
+	padding-right: 10px;
+
+}
+i:hover{
+	color: blue;
+	transform: scale(2);
+	transition: 0.5s;
+}
+.copyright{
+	text-align: center;
+	font-size: 12px;
+	padding: 25px 0;
+
+}
+.copyright span{
+	text-decoration: underline;
+}
+.created{
+	height: 60px;
+	background-color: #f1f0f0;
+}
